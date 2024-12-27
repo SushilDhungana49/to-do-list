@@ -1,0 +1,79 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+input[type="button"] {
+  font-size: 2em;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: flex;
+  border: 2px solid hsla(0, 100%, 100%, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  margin-right: 20px;
+  transition: 1000;
+}
+
+#text {
+  height: 50px;
+  border-radius: 8px;
+  flex: 1;
+  margin-right: 10px;
+  font-size: 1.5em;
+  margin: 0px 20px 0px 30px;
+  padding-left: 20px;
+  border: 3px solid hsl(0, 0%, 40%);
+}
+
+.ipLine {
+  display: flex;
+}
+
+.task {
+  flex: 1;
+  font-size: 2em;
+}
+
+.add {
+  background-color: hsl(129, 80%, 60%);
+}
+
+.add:hover {
+  background-color: hsl(129, 80%, 50%);
+  cursor: pointer;
+}
+
+.delete {
+  background-color: hsl(0, 80%, 60%);
+}
+
+.delete:hover {
+  background-color: hsl(0, 80%, 50%);
+  cursor: pointer;
+}
+.move {
+  background-color: hsl(253, 80%, 60%);
+}
+
+.move:hover {
+  background-color: hsl(253, 80%, 50%);
+  cursor: pointer;
+}
